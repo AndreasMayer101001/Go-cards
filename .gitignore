@@ -1,0 +1,20 @@
+# Binaries
+bin/
+*.exe
+*.out
+
+# IDE
+.idea/
+.vscode/
+
+# Go
+vendor/
+
+# Env and configs (do NOT commit real secrets)
+.env
+config.yaml
+
+# Logs
+*.log
+
+
