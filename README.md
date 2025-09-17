@@ -3,7 +3,7 @@
 Запуск в Docker:
 
 1) Скопируйте `.env.example` в `.env` (при необходимости настройте переменные)
-2) Соберите и поднимите:
+2) объявить билд:
 
 ```bash
 docker compose up --build
@@ -35,4 +35,5 @@ curl "http://localhost:8000/api/v1/subscriptions/aggregate/total?period_start=01
 ```
 
 Миграции выполняются автоматически при старте контейнера API.
+
 
